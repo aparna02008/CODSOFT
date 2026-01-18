@@ -1,6 +1,6 @@
 
 a = input("Enter a task: ")
-with open("todo.txt", "a") as f:   # a = append (overwrite illa)
+with open("todo.txt", "a") as f:   
     f.write(a + "\n")
 print("Task added successfully")
 
